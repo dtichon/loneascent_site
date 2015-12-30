@@ -177,36 +177,50 @@ body {
 }
 
 /* Mobile Cover */
-@media (max-width: 800px) {
+@media (max-width: 850px) {
 
-.coverbox {
-  border: 2px solid;
-  width: 100px;
-  height: 100px;
-  -ms-transform: rotate(45deg); /* IE 9 */
-  -webkit-transform: rotate(45deg); /* Safari */
-  transform: rotate(45deg); /* Standard syntax */
-}
+	.diamondcover {
+	  position: relative;
+	  padding: 100px 0 100px 0;
+	  top: -100px;
+	}
 
-.coverboxtxt {
-  position:relative;
-  top: 40px;
-  -ms-transform: rotate(-45deg); /* IE 9 */
-  -webkit-transform: rotate(-45deg); /* Safari */
-  transform: rotate(-45deg); /* Standard syntax */
-}
+	.coverbox {
+	  border: 2px solid;
+	  width: 100px;
+	  height: 100px;
+	  -ms-transform: rotate(45deg); /* IE 9 */
+	  -webkit-transform: rotate(45deg); /* Safari */
+	  transform: rotate(45deg); /* Standard syntax */
+	}
 
-.diamond1 {
-  
-}
+	.coverboxtxt {
+	  position:relative;
+	  top: 30%;
+	  font-size: 18px;
+	  -ms-transform: rotate(-45deg); /* IE 9 */
+	  -webkit-transform: rotate(-45deg); /* Safari */
+	  transform: rotate(-45deg); /* Standard syntax */
+	}
 
-.diamond2 {
-  
-}
+	.diamond1 {
+	  position: relative;
+	  display:inline-block;
+	  top: 75px;
+	  left: 25px;
+	}
 
-.diamond3 {
-  
-}
+	.diamond2 {
+	  position: relative;
+	  display:inline-block;
+	}
+
+	.diamond3 {
+	  position: relative;
+	  display:inline-block;
+	  top: 75px;
+	  left: -25px;  
+	}
 
 }
 
