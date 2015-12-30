@@ -48,6 +48,10 @@ body {
   padding: 50px 0;
 }
 
+.skewed {
+
+}
+
 .well {
   background: #fff;
 }
@@ -174,6 +178,13 @@ body {
   display:inline-block;
   top: 150px;
   left: -50px;  
+}
+
+.arrowdwn{
+  position: absolute;
+  font-size: 40px;
+  bottom: 10px;
+  left: 49%;
 }
 
 /* Mobile Cover */
