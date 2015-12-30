@@ -134,6 +134,26 @@ body {
   font-weight: bold;
 }
 
+.coverbox {
+  display:inline-block;
+  border: 2px solid;
+  width: 200px;
+  height: 200px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari */
+  transform: rotate(45deg); /* Standard syntax */
+}
+
+.coverboxtxt {
+  position:relative;
+  top: 80px;
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Safari */
+  transform: rotate(-45deg); /* Standard syntax */
+}
+
+
+
 
 
 
