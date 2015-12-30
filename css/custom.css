@@ -155,7 +155,9 @@ body {
 
 .coverboxtxt {
   position:relative;
-  top: 80px;
+  top: 65px;
+  left: 5px;
+  font-weight: bold;
   -ms-transform: rotate(-45deg); /* IE 9 */
   -webkit-transform: rotate(-45deg); /* Safari */
   transform: rotate(-45deg); /* Standard syntax */
