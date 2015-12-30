@@ -134,8 +134,13 @@ body {
   font-weight: bold;
 }
 
+.diamondcover {
+  position: relative;
+  padding: 100px;
+  top: -100px;
+}
+
 .coverbox {
-  display:inline-block;
   border: 2px solid;
   width: 200px;
   height: 200px;
@@ -152,6 +157,58 @@ body {
   transform: rotate(-45deg); /* Standard syntax */
 }
 
+.diamond1 {
+  position: relative;
+  display:inline-block;
+  top: 150px;
+  left: 50px;
+}
+
+.diamond2 {
+  position: relative;
+  display:inline-block;
+}
+
+.diamond3 {
+  position: relative;
+  display:inline-block;
+  top: 150px;
+  left: -50px;  
+}
+
+/* Mobile Cover */
+@media (max-width: 800px) {
+
+.coverbox {
+  border: 2px solid;
+  width: 100px;
+  height: 100px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari */
+  transform: rotate(45deg); /* Standard syntax */
+}
+
+.coverboxtxt {
+  position:relative;
+  top: 40px;
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Safari */
+  transform: rotate(-45deg); /* Standard syntax */
+}
+
+.diamond1 {
+  
+}
+
+.diamond2 {
+  
+}
+
+.diamond3 {
+  
+}
+
+}
 
 
 
