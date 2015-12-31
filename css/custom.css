@@ -39,19 +39,11 @@ body {
 }
 
 .site-wrapper-body {
-  background-color: #0B2D9E;
+  background-color: #062280;
   background-image: url("http://www.handinhive.com/images/hihbackground2.png");
   -ms-transform: skewY(-5deg); /* IE 9 */
   -webkit-transform: skewY(-5deg); /* Safari */
   transform: skewY(-5deg);
-}
-
-.site-wrapper-body-accent {
-  background-color: #FACF34;
-  -ms-transform: skewY(-5deg); /* IE 9 */
-  -webkit-transform: skewY(-5deg); /* Safari */
-  transform: skewY(-5deg);
-  padding: 6px;
 }
 
 .site-wrapper-body-inner {
@@ -62,6 +54,41 @@ body {
   -webkit-transform: skewY(5deg); /* Safari */
   transform: skewY(5deg);
 }
+
+.site-wrapper-body-accent {
+  background-color: #FACF34;
+  -ms-transform: skewY(-5deg); /* IE 9 */
+  -webkit-transform: skewY(-5deg); /* Safari */
+  transform: skewY(-5deg);
+  padding: 6px;
+}
+
+.site-wrapper-body-rev {
+  background-color: #062280;
+  background-image: url("http://www.handinhive.com/images/hihbackground2.png");
+  -ms-transform: skewY(5deg); /* IE 9 */
+  -webkit-transform: skewY(5deg); /* Safari */
+  transform: skewY(5deg);
+}
+
+.site-wrapper-body-accent-rev {
+  background-color: #FACF34;
+  -ms-transform: skewY(5deg); /* IE 9 */
+  -webkit-transform: skewY(5deg); /* Safari */
+  transform: skewY(5deg);
+  padding: 6px;
+}
+
+.site-wrapper-body-inner-rev {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  -ms-transform: skewY(-5deg); /* IE 9 */
+  -webkit-transform: skewY(-5deg); /* Safari */
+  transform: skewY(-5deg);
+}
+
+
 
 .sectionbox {
   padding: 50px 0;
@@ -332,4 +359,23 @@ body {
   font-size:50px;
   text-align: center;
   padding-top:15px;
+}
+
+.vignette {
+  background: url("../img/dt.jpg");
+  width: 300px; height: 300px;
+  -webkit-box-shadow:
+     inset 0 0 50px #000,
+                inset 0 0 50px #000,
+                inset 0 0 50px #000;
+  
+     -moz-box-shadow:
+     inset 0 0 50px #000,
+                inset 0 0 50px #000,
+                inset 0 0 50px #000;
+  
+          box-shadow:
+     inset 0 0 50px #000,
+                inset 0 0 50px #000,
+                inset 0 0 50px #000;
 }
