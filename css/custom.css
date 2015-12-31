@@ -149,6 +149,7 @@ body {
   background: rgba(0, 0, 0, .6);
   width: 200px;
   height: 200px;
+  transition: 1s;
   -ms-transform: rotate(45deg); /* IE 9 */
   -webkit-transform: rotate(45deg); /* Safari */
   transform: rotate(45deg); /* Standard syntax */
@@ -156,9 +157,10 @@ body {
 
 .coverbox:hover {
   border:2px solid;
-  background: rgba(250, 207, 52, .8);
-  width: 200px;
-  height: 200px;
+  background: rgba(23, 58, 173, .8);
+  width: 210px;
+  height: 210px;
+  transition: 1s;
   -ms-transform: rotate(45deg); /* IE 9 */
   -webkit-transform: rotate(45deg); /* Safari */
   transform: rotate(45deg); /* Standard syntax */
@@ -170,6 +172,7 @@ body {
   color: #fff;
   width: 200px;
   height: 200px;
+  transition: 1s;
   -ms-transform: rotate(45deg); /* IE 9 */
   -webkit-transform: rotate(45deg); /* Safari */
   transform: rotate(45deg); /* Standard syntax */
@@ -177,9 +180,10 @@ body {
 
 .coverbox2:hover {
   border:2px solid;
-  background: rgba(0, 0, 0, .6);
-  width: 200px;
-  height: 200px;
+  background: rgba(23, 58, 173, .8);
+  width: 210px;
+  height: 210px;
+  transition: 1s;
   -ms-transform: rotate(45deg); /* IE 9 */
   -webkit-transform: rotate(45deg); /* Safari */
   transform: rotate(45deg); /* Standard syntax */
