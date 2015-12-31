@@ -27,6 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
+  background-color: #f2f2f2;
 }
 
 .site-wrapper {
@@ -38,7 +39,8 @@ body {
 }
 
 .site-wrapper-body {
-  background-color: #173AAD;
+  background-color: #0B2D9E;
+  background-image: url("http://www.handinhive.com/images/hihbackground2.png");
   -ms-transform: skewY(-5deg); /* IE 9 */
   -webkit-transform: skewY(-5deg); /* Safari */
   transform: skewY(-5deg);
@@ -71,6 +73,10 @@ body {
 
 .well {
   background: #fff;
+}
+
+.lgtype {
+  font-size: 48px;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -174,7 +180,7 @@ body {
 
 .coverbox:hover {
   border:2px solid;
-  background: rgba(23, 58, 173, .8);
+  background: rgba(11, 45, 158, .8);
   width: 210px;
   height: 210px;
   transition: 1s;
@@ -197,7 +203,7 @@ body {
 
 .coverbox2:hover {
   border:2px solid;
-  background: rgba(23, 58, 173, .8);
+  background: rgba(11, 45, 158, .8);
   width: 210px;
   height: 210px;
   transition: 1s;
