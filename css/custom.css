@@ -38,18 +38,35 @@ body {
 }
 
 .site-wrapper-body {
-  background-color: #333;
+  background-color: #173AAD;
+  -ms-transform: skewY(-5deg); /* IE 9 */
+  -webkit-transform: skewY(-5deg); /* Safari */
+  transform: skewY(-5deg);
+}
+
+.site-wrapper-body-accent {
+  background-color: #FACF34;
+  -ms-transform: skewY(-5deg); /* IE 9 */
+  -webkit-transform: skewY(-5deg); /* Safari */
+  transform: skewY(-5deg);
+  padding: 6px;
+}
+
+.site-wrapper-body-inner {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  -ms-transform: skewY(5deg); /* IE 9 */
+  -webkit-transform: skewY(5deg); /* Safari */
+  transform: skewY(5deg);
 }
 
 .sectionbox {
   padding: 50px 0;
 }
 
-.skewed {
-
+.sectionbox2 {
+  padding-bottom: 100px;
 }
 
 .well {
